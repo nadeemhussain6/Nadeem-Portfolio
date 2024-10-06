@@ -119,7 +119,7 @@ const SkillImage = styled.img`
 `
 
 
-const Skills = () => {
+const index = () => {
   return (
     <Container id="skills">
       <Wrapper>
@@ -147,4 +147,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default index
