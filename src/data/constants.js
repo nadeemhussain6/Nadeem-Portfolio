@@ -214,7 +214,7 @@ export const projects = [
     description:
       "Conducted a customer churn analysis to identify key factors influencing customer attrition. Cleaned and prepared raw data, applied formulas to calculate churn rates, and created visualizations using Pivot Tables and charts to showcase the results. This project helped the marketing team focus on customer retention strategies.",
     image:
-      "https://baremetrics.com/hs-fs/hubfs/Imported_Blog_Media/cohort-analysis-months-0-2.png?width=638&height=352&name=cohort-analysis-months-0-2.png",
+      "https://zyabkina.com/wp/wp-content/uploads/2020/12/Churn_analysis_dataset.png",
     tags: [
       "Data Cleaning",
       "Pivot Tables",
