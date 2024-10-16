@@ -209,24 +209,19 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
+    title: "Customer Churn Analysis",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Conducted a customer churn analysis to identify key factors influencing customer attrition. Cleaned and prepared raw data, applied formulas to calculate churn rates, and created visualizations using Pivot Tables and charts to showcase the results. This project helped the marketing team focus on customer retention strategies.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://baremetrics.com/hs-fs/hubfs/Imported_Blog_Media/cohort-analysis-months-0-2.png?width=638&height=352&name=cohort-analysis-months-0-2.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Data Cleaning",
+      "Pivot Tables",
+      "Formulas (IF, COUNTIF)",
+      "Conditional Formatting",
+      "Data Visualization",
+      "Excel Charts",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
@@ -234,13 +229,19 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Data Cleaning Automation Tool",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Created an automated data cleaning tool using Excel and VBA, capable of removing duplicates, correcting formatting issues, and standardizing values. The tool significantly reduced manual effort, improving data accuracy and making datasets ready for analysis.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://d13ot9o61jdzpp.cloudfront.net/images/ways_to_clean_data44.png",
+    tags: [
+      "Data Cleaning",
+      "VBA",
+      "Formulas (IF, VLOOKUP, TRIM, CLEAN)",
+      "Data Validation",
+      "Conditional Formatting",
+    ],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
@@ -261,19 +262,18 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Vexa",
+    title: "Exploratory Data Analysis (EDA) on Sales Data",
     date: "Oct 2022 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Performed Exploratory Data Analysis (EDA) on sales data to discover trends, outliers, and relationships between variables. The analysis included descriptive statistics, histograms, and boxplots, providing insights into sales patterns and helping the team understand product performance across regions.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://techvify-software.com/wp-content/uploads/2023/11/exploratory-data-analysis-1.jpg",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Data Analysis",
+      "Descriptive Statistics",
+      "Excel Charts",
+      "Pivot Tables",
+      "Formulas (AVERAGE, STDEV, COUNTIF)",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Project-Management-App",
@@ -281,14 +281,19 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
+    title: "A/B Test Results Analysis",
     date: "Jan 2023 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+      " Analyzed A/B testing results to compare the performance of two marketing strategies. Cleaned and prepared data, ran hypothesis tests (using Excel’s TTEST function), and visualized the results to determine the statistical significance of the observed differences. Helped the marketing team choose the optimal strategy.",
+    image: "https://cxl.com/wp-content/uploads/2015/12/image00.png",
+    tags: [
+      "Statistical Analysis",
+      "Data Cleaning",
+      "Hypothesis Testing",
+      "Pivot Tables",
+      "Formulas (TTEST, AVERAGE)",
+    ],
+    category: "web app",
     github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
     webapp: "https://brain-tumor.netlify.app/",
     member: [
@@ -308,95 +313,335 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Buckoid",
+    title: "Revenue and Expense Analysis",
     date: "Dec 2021 - Apr 2022",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "Conducted a revenue and expense analysis for a company, breaking down financial data by department and comparing it against budgeted targets. The analysis included trend visualizations to help stakeholders identify areas for cost-cutting and revenue optimization.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
+      "https://www.slidegeeks.com/media/catalog/product/cache/1280x720/P/r/Project_Budget_Planning_Dashboard_With_Revenue_And_Expenses_Ideas_PDF_Slide_1.jpg",
+    tags: [
+      "Financial Analysis",
+      "Data Analysis",
+      "Formulas (SUMIF, IFERROR, VLOOKUP)",
+      "Pivot Tables",
+      "Excel Charts",
+    ],
+    category: "web app",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
     id: 10,
-    title: "Job Finding App",
+    title: "HR Analytics Dashboard",
     date: "Jun 2023 - Jul 2023",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "Created an HR analytics dashboard that visualized employee demographics, performance, retention rates, and absenteeism. Drill-down capabilities were implemented to allow users to filter by department, gender, or job role. The dashboard helped the HR department make data-driven decisions regarding workforce management and employee engagement.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "https://user-images.githubusercontent.com/124501309/227755419-ff277f69-fd14-4d51-b85f-973c25a6219f.png",
+    tags: [
+      "Data Visualization",
+      "Data Modeling",
+      "DAX",
+      "Power Query",
+      "Drill-downs",
+    ],
     category: "android app",
     github: "https://github.com/rishavchanda/Job-finder-App",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Supply Chain Management Dashboard",
+    date: "Jun 2023 - Jul 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Developed a supply chain management dashboard to monitor key metrics like order fulfillment rates, inventory levels, and supplier performance. Used DAX for calculations like lead times and reorder points, providing real-time visibility into the supply chain. The dashboard helped optimize inventory and reduce operational bottlenecks.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+      "https://miro.medium.com/v2/resize:fit:1400/1*piT3Iwier9y8R1PP6aW4SA.png",
+    tags: [
+      "Data Modeling",
+      "DAX",
+      "Data Transformation",
+      "Power Query",
+      "Visualization",
+      "KPIs",
+    ],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
+
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Website Traffic and User Behavior Report",
+    date: "Jun 2023 - Jul 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "Analyzed website traffic and user behavior by integrating data from Google Analytics into Power BI. Created visualizations that highlighted metrics like session duration, bounce rates, and user paths. This report enabled the marketing team to understand how users navigated the site and identify areas for website optimization.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+      "https://www.searchenginejournal.com/wp-content/uploads/2021/06/google-analytics-4-customization-capabilities-60c2596402dd5-1280x720.gif",
+    tags: [
+      "Data Integration",
+      "Data Visualization",
+      "DAX",
+      "Power Query",
+      "Custom Measures",
+    ],
     category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
+  },
+
+  {
+    id: 10,
+    title: "Customer Satisfaction Dashboard (CSAT)",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Designed a customer satisfaction (CSAT) dashboard by analyzing survey data. Visualized customer feedback trends, satisfaction scores, and comments, using filters to explore responses by region, product, and customer segment. The dashboard helped the support and product teams improve service quality based on actionable insights.",
+    image:
+      "https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/8/7/875254936c89401cdebca42053949c3b5466c3f0508c5dbed23dacccac7cdaea/customer-satisfaction-dashboard-slide1.png",
+    tags: [
+      "Data Integration",
+      "DAX",
+      "Data Visualization",
+      "Power Query",
+      "Survey Data Analysis",
+    ],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
+  },
+
+  {
+    id: 10,
+    title: "Instagram Post Performance Analysis using Power BI",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed an interactive Power BI dashboard to analyze Instagram post performance by tracking key metrics such as engagement rate, reach, impressions, and follower growth. Integrated data from Instagram insights, performed data cleaning and modeling, and used DAX functions to create custom KPIs. The dashboard provided actionable insights into content performance, optimal posting times, and audience engagement trends.",
+    image:
+      "https://blog.coupler.io/wp-content/uploads/2024/05/1.-Instagram-Analytics-Dashboard-1024x916.png",
+    tags: [
+      "Data Collection & Integration",
+      "Data Cleaning",
+      "Data Modeling",
+      "DAX",
+      "Data Visualization",
+      "Analytical Thinking",
+      "Storytelling with Data",
+    ],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
+  },
+
+  {
+    id: 11,
+    title: "Financial Performance Analysis",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Designed a financial dashboard to track key financial metrics such as revenue, expenses, and profit margins over time. The analysis included variance reports and trend analyses to identify financial health and areas for improvement.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyNMB5DA3H5qhNfc8EM_VQP8iQuLreUCZzA&s",
+    tags: ["Tableau", "Financial Analysis", "Data Modeling", "Trend Analysis"],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/Financial-Performance-Analysis",
+    webapp: "https://github.com/rishavchanda/Financial-Performance-Analysis",
   },
   {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    id: 12,
+    title: "Social Media Analytics Dashboard",
+    date: "Jun 2023 - Jul 2023",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "Created a dashboard to visualize social media engagement metrics (likes, shares, comments) across multiple platforms. This project aimed to evaluate the effectiveness of social media campaigns and identify trends in audience engagement.",
+    image: "https://i.ytimg.com/vi/gGZ5-cn5ePk/sddefault.jpg",
+    tags: [
+      "Tableau",
+      "Social Media Analytics",
+      "Data Visualization",
+      "Trend Analysis",
+    ],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/rishavchanda/Social-Media-Analytics-Dashboard",
+    webapp: "https://github.com/rishavchanda/Social-Media-Analytics-Dashboard",
   },
+  {
+    id: 13,
+    title: "Healthcare Patient Analytics",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed a Tableau dashboard to analyze patient data, including demographics, treatment outcomes, and hospital readmission rates. The project focused on improving patient care and operational efficiency.",
+    image:
+      "https://dce0qyjkutl4h.cloudfront.net/wp-content/uploads/2023/04/Interactive-dashboards.jpg",
+    tags: [
+      "Tableau",
+      "Healthcare Data Analysis",
+      "Data Visualization",
+      "Statistical Analysis",
+    ],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/Healthcare-Patient-Analytics",
+    webapp: "https://github.com/rishavchanda/Healthcare-Patient-Analytics",
+  },
+  {
+    id: 14,
+    title: "E-commerce Website Performance",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Analyzed e-commerce website performance data, visualizing key metrics such as conversion rates, average order value, and cart abandonment rates. The dashboard provided insights for optimizing the online shopping experience.",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1400/1*W24Q5r5qcMRJLxbCvMvYrg.png",
+    tags: [
+      "Tableau",
+      "E-commerce Analytics",
+      "Data Visualization",
+      "A/B Testing",
+    ],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/E-commerce-Website-Performance",
+    webapp: "https://github.com/rishavchanda/E-commerce-Website-Performance",
+  },
+  {
+    id: 15,
+    title: "Environmental Impact Dashboard",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed a dashboard to analyze environmental data, including carbon emissions, energy consumption, and waste management metrics. The project aimed to track sustainability efforts and identify areas for improvement.",
+    image:
+      "https://www.uneecops.com/wp-content/uploads/2022/08/Sales-summary.jpg",
+    tags: [
+      "Tableau",
+      "Environmental Analytics",
+      "Data Visualization",
+      "Sustainability Analysis",
+    ],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/Environmental-Impact-Dashboard",
+    webapp: "https://github.com/rishavchanda/Environmental-Impact-Dashboard",
+  },
+
+  {
+    id: 16,
+    title: "Employee Management System",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Designed a relational database for managing employee records, including details such as personal information, job roles, salaries, and performance evaluations. Created complex SQL queries for generating employee reports and summaries.",
+    image:
+      "https://d2jdgazzki9vjm.cloudfront.net/dbms/images/er-diagram-for-employee-management-system.png",
+    tags: ["SQL", "Database Design", "Data Modeling", "Query Optimization"],
+    category: "database",
+    github: "https://github.com/rishavchanda/Employee-Management-System",
+    webapp: "https://github.com/rishavchanda/Employee-Management-System",
+  },
+  {
+    id: 17,
+    title: "E-commerce Order Processing",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed a database schema for an e-commerce platform to handle orders, customers, products, and inventory. Wrote SQL queries to analyze sales trends, customer behavior, and inventory levels.",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1200/1*bmgKJMAOYjqlqObU4Ffb9Q.png",
+    tags: ["SQL", "Data Analysis", "E-commerce", "Database Management"],
+    category: "database",
+    github: "https://github.com/rishavchanda/E-commerce-Order-Processing",
+    webapp: "https://github.com/rishavchanda/E-commerce-Order-Processing",
+  },
+  {
+    id: 18,
+    title: "Inventory Management System",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Designed a database to track inventory levels, supplier information, and purchase orders for a retail business. Implemented SQL queries to monitor stock levels, reorder points, and supplier performance.",
+    image:
+      "https://lh3.googleusercontent.com/-FexQuBoYrX0/WWnXLtnobCI/AAAAAAAAEvo/j1z8BrKv-NcLprIPV592hzypA2BXK1TuQCLcBGAs/s0/inventory_manager_schema.png",
+    tags: ["SQL", "Inventory Control", "Data Management", "Reporting"],
+    category: "database",
+    github: "https://github.com/rishavchanda/Inventory-Management-System",
+    webapp: "https://github.com/rishavchanda/Inventory-Management-System",
+  },
+  {
+    id: 19,
+    title: "Online Survey Analysis",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed a database to store survey responses and analyze customer feedback. Wrote SQL queries to extract insights from survey data, generating reports on customer satisfaction and preferences.",
+    image:
+      "https://www.visual-expert.com/images/generate-impact-analysis-diagrams-1.PNG",
+    tags: ["SQL", "Data Analysis", "Reporting", "Survey Analytics"],
+    category: "database",
+    github: "https://github.com/rishavchanda/Online-Survey-Analysis",
+    webapp: "https://github.com/rishavchanda/Online-Survey-Analysis",
+  },
+  {
+    id: 20,
+    title: "Website Analytics Database",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Created a database to store and analyze website traffic data, including user sessions, page views, and conversion rates. Wrote SQL queries to generate reports on user engagement and website performance.",
+    image:
+      "https://daxg39y63pxwu.cloudfront.net/images/blog/sql-database-projects-for-data-analysis-to-practice/image_53259483391652454127689.png",
+    tags: ["SQL", "Web Analytics", "Data Analysis", "Reporting"],
+    category: "database",
+    github: "https://github.com/rishavchanda/Website-Analytics-Database",
+    webapp: "https://github.com/rishavchanda/Website-Analytics-Database",
+  },
+
+    {
+      "id": 21,
+      "title": "NPPCF (National Programme for Prevention and Control of Fluorosis)",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "Developed a comprehensive data management system in Lumenore for the NPPCF to track fluorosis cases across various regions. The project involved visualizing key metrics such as prevalence rates, risk factors, and treatment outcomes. By leveraging Lumenore's analytics capabilities, stakeholders could easily monitor trends, identify high-risk areas, and implement effective intervention strategies to mitigate fluorosis impact.",
+      "image": "https://image.slidesharecdn.com/nppcf-160314194702/85/NPPCF-1-320.jpg",
+      "tags": ["Lumenore", "Data Management", "Health Analytics", "Fluorosis"],
+      "category": "healthcare analytics",
+      "github": "https://github.com/rishavchanda/NPPCF",
+      "webapp": "https://github.com/rishavchanda/NPPCF"
+    },
+    {
+      "id": 22,
+      "title": "NVBDCP (National Vector Borne Disease Control Programme)",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "Created an interactive dashboard in Lumenore for the NVBDCP to analyze and visualize data related to vector-borne diseases such as malaria, dengue, and chikungunya. The project focused on tracking incidence rates, vector populations, and intervention effectiveness. This enabled public health officials to make data-driven decisions, optimize resource allocation, and enhance disease control measures in affected areas.",
+      "image": "https://image.slidesharecdn.com/nvbdcp-161216042852/85/National-Vector-Borne-Disease-Control-Programme-NVBDCP-1-320.jpg",
+      "tags": ["Lumenore", "Data Visualization", "Public Health", "Vector Borne Diseases"],
+      "category": "healthcare analytics",
+      "github": "https://github.com/rishavchanda/NVBDCP",
+      "webapp": "https://github.com/rishavchanda/NVBDCP"
+    },
+    {
+      "id": 23,
+      "title": "NPHCE (National Programme for Health Care of Elderly)",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "Developed a health data analytics solution in Lumenore for the NPHCE to monitor and evaluate health services for the elderly population. The dashboard visualized key indicators such as access to healthcare, prevalence of chronic diseases, and service utilization rates. This project aimed to improve healthcare delivery and develop targeted policies to enhance the quality of life for elderly individuals.",
+      "image": "https://i.ytimg.com/vi/5vO8idS1YqY/maxresdefault.jpg",
+      "tags": ["Lumenore", "Elderly Care", "Healthcare Analytics", "Data Visualization"],
+      "category": "healthcare analytics",
+      "github": "https://github.com/rishavchanda/NPHCE",
+      "webapp": "https://github.com/rishavchanda/NPHCE"
+    },
+    {
+      "id": 24,
+      "title": "IDSP (Integrated Disease Surveillance Programme)",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "Designed a robust analytics platform in Lumenore for the IDSP to monitor and analyze disease surveillance data across various states. The project involved integrating real-time data on disease outbreaks, patient demographics, and healthcare responses. By providing actionable insights through visual dashboards, this project aimed to enhance public health responses, improve disease tracking, and facilitate timely interventions during outbreaks.",
+      "image": "https://image.slidesharecdn.com/integrateddiseasessurveillanceprogramme-200817183854/85/Integrated-diseases-surveillance-programme-2-320.jpg",
+      "tags": ["Lumenore", "Disease Surveillance", "Public Health", "Analytics"],
+      "category": "healthcare analytics",
+      "github": "https://github.com/rishavchanda/IDSP",
+      "webapp": "https://github.com/rishavchanda/IDSP"
+    },
+    {
+      "id": 25,
+      "title": "Blood Services Project",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "Developed a data analytics solution in Lumenore for a Blood Services project to manage and monitor blood donation and transfusion data. The dashboard provided insights into donor demographics, blood type availability, and usage trends across various hospitals. By visualizing key metrics such as donation rates, inventory levels, and patient needs, the project aimed to enhance blood donation campaigns, optimize resource allocation, and improve overall blood service delivery.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYX5PQ1bJ23Mf8NmCS-3M8kYddNN6LOElk8Q&s",
+      "tags": ["Lumenore", "Blood Services", "Data Analytics", "Healthcare"],
+      "category": "healthcare analytics",
+      "github": "https://github.com/rishavchanda/Blood-Services-Project",
+      "webapp": "https://github.com/rishavchanda/Blood-Services-Project"
+    }
+  
+
+
+
 ];
 
 export const TimeLineData = [
