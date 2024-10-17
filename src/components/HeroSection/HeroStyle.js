@@ -174,7 +174,7 @@ export const ResumeButton = styled.a`
     width: 95%;
     max-width: 300px;
     text-align: center;
-    padding: 16px 0;
+    padding: 15px 30px;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
@@ -190,14 +190,14 @@ export const ResumeButton = styled.a`
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
+    box-shadow:  20px 20px 60px #1F2634;
     filter: brightness(1);
     }    
     
     
     @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
+      padding: 12px 0;
+      font-size: 18px;
     } 
 
 `;
