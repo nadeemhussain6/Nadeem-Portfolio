@@ -19,6 +19,8 @@ import HeroImg from "../../images/nadeem.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
+// https://docs.google.com/document/d/1riK734IilYRR7uzBFKUv3acHsPSb5UsP/edit
+
 const HeroSection = () => {
   return (
     <div id="about">
@@ -46,7 +48,7 @@ const HeroSection = () => {
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton
               href={
-                "https://docs.google.com/document/d/1riK734IilYRR7uzBFKUv3acHsPSb5UsP/edit"
+                "/resume.pdf"
               }
               target="display"
             >
